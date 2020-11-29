@@ -4,7 +4,7 @@ import Navigation from './components/Navigation'
 import Jackets from './components/Jackets'
 import { render } from '@testing-library/react';
 
-import { Divider, Layout, Card, Tabs, Typography, Menu, Breadcrumb, Icon } from 'antd';
+import { Layout } from 'antd';
 
 
 class App extends Component {
@@ -15,7 +15,6 @@ class App extends Component {
       <div>
         <Layout>
           <Navigation/>
-          
         </Layout>
       </div>
     )
